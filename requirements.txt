@@ -1,0 +1,16 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+pydantic==1.10.12
+sqlalchemy==2.0.21
+databases==0.5.5
+redis==5.0.0
+python-dotenv==1.0.0
+
+# Azure-specific packages
+azure-storage-blob==12.18.2
+azure-identity==1.13.0
+azure-keyvault-secrets==4.7.0
+azure-mgmt-containerregistry==10.0.0
+
+# Additional packages for async support (if needed)
+aiofiles==23.1.0
